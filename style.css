@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 80px;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.relogio span.tempo {
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon {
+    display: none;
+}
+
+/* Tema escuro */
+
+.dark,
+.dark header {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: block;
+}
+
+/* Estilos para dispositivos móveis */
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .relogio {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .relogio div {
+        margin-bottom: 20px;
+    }
+
+    .relogio span {
+        font-size: 40px;
+    }
+}

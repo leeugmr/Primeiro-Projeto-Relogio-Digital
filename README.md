@@ -11,7 +11,7 @@
 ---
 <div align="center">
   <div align="center">
-    <b><a href="https://hilarious-beignet-b0a374.netlify.app">Site onde o Projeto é Carregado!</a></b>
+    <b><a href="https://hilarious-beignet-b0a374.netlify.app">Site para o projeto.</a></b>
 </div>
   
 ### <p align="center"> Obrigado por ver ❤ </p>
